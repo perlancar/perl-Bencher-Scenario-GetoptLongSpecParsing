@@ -9,6 +9,9 @@ use warnings;
 
 our $scenario = {
     summary => 'Benchmark parsing of Getopt::Long option spec',
+    modules => {
+        'Getopt::Long::Util' => { version=>0.88 },
+    },
     participants => [
         {
             module => 'Getopt::Long::Spec',
