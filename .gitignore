@@ -2,3 +2,4 @@ Bencher-Scenario-GetoptLongSpecParsing-*
 .build
 *~
 nytprof*
+.DS_Store
